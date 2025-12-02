@@ -1,0 +1,68 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<header>
+     <img class="imglogo" src="assets/img-arrecadacao.png" alt="cesta">
+    <div>       
+        <h2 class="nome-projeto">Esperança no Prato</h2>
+    </div>
+
+    <div class="header-ajuda-botao">
+        <a routerLink="/"><button class="laranja">Início</button></a>
+        <a routerLink="/doacao-cadastro"><button class="azul">Seja um voluntário</button></a>
+    </div>
+</header>
+
+<p class="linha-1">___________________________________________________________________________________________________________________________________________________</p>
+
+
+
+<div class="body">
+
+    <div class="container">
+
+        <div class="img">
+            <img src="assets/login.png" alt="login">
+        </div>
+
+        <div class="container-form">
+
+
+        <form action="">
+            <div class="div1">
+                <img class="img-arrecadacao" src="assets/img-arrecadacao.png" alt="img">
+                <h3>Ação Social</h3>
+            </div>
+
+            <h1>Bem-vindo(a) de <br> volta!</h1>
+            <p class="p-azul">Juntos, transformamos vidas.</p>
+             
+            <label for="">E-mail ou CPF</label>
+            <input type="text" [(ngModel)]="emailDigitado" name="email" placeholder="Digite seu E-mail ou CPF">
+
+            <label for="">Senha</label>
+            <input type="password" [(ngModel)]="senhaDigitada" name="" placeholder="Digite sua Senha">
+
+
+
+            <a href="">Equeci minha senha</a>
+
+            <button (click)="onButtonClick()">Entrar</button>
+
+
+
+            <div  class="div-final">
+                <div>
+                    <p>Ainda não tem uma conta?</p>
+                </div>
+                <div>
+                    <a class="cadastrar" routerLink="/cadastro" >Cadastrar</a>
+                </div>
+            </div>
+
+        </form>
+        </div>
+    </div>
+    
+
+</div>

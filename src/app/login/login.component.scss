@@ -1,0 +1,194 @@
+* {
+    font-family:"Inter", sans-serif;
+}
+
+header {
+    background-color: #F8F6F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.imglogo {
+    height: 60px;
+    margin: 0;
+    padding: 10px;
+}
+
+.nome-projeto {
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    font-size: 20px;
+
+}
+
+
+.header-ajuda-botao .laranja{
+    background-color: #F5A623;
+    border-radius: 5px;
+    color: #F8F6F8;
+    border: 0;
+    padding: 15px;
+    width:200px ;
+    margin-right: 0px;
+    font-size: large;
+    cursor: pointer;
+    margin: -155px;
+
+}
+
+.header-ajuda-botao .azul{
+    background-color: #7311D4;
+    border-radius: 5px;
+    color: #F8F6F8;
+    border: 0;
+    padding: 15px;
+    width: 200px;
+    font-size: large;
+    cursor: pointer;
+
+}
+
+.linha-1 {
+    display: flex;
+    justify-content: center;
+    color: #f0ebeb;   
+    font-weight: 20;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F6F8;
+}
+
+.body {
+    background-color: #F8F6F8;
+    height:  790px;
+}
+
+
+
+img {
+    height: 599px;
+    border-radius: 10px 0 0 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 80px;
+    align-items: center;
+}
+
+.container-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    
+
+}
+
+.container-form {
+    display: flex;
+    background-color: #FFFFFF;
+    height: 600px;
+    width: 400px;
+    border-radius: 0 10px 10px 0;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.container-form a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.container-form input {
+    background-color:#F8F9FA;
+    border-radius: 5px;
+    padding: 7px;
+    width: 290px;
+    margin-bottom: 9px;
+    border: none;
+    padding: 20px;
+}
+
+.p-azul {
+    color: #4A90E2;
+    font-size: 13px;
+    margin: 0 0 50px 0;
+}
+
+a {
+    color: #4A90E2;
+    text-decoration: underline;
+    margin-left: 160px;
+    font-size: 10px;
+}
+
+.div1 {
+    display: flex;
+}
+.img-arrecadacao {
+    height: 50px;
+    border-radius: 100px;
+
+}
+
+
+h3 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 800;
+}
+
+button {
+    padding: 15px;
+    width: 332px;
+    background-color: #4A90E2;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    font-size: 20px;
+
+
+}
+
+.cadastrar {
+    
+    margin: 20px;
+    
+}
+
+
+.div-final {
+    display: flex;
+    justify-content: center;
+
+}
+
+.div-final p {
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    padding: 0;
+    margin: 8px 0 0 0;
+}
+
+.div-final a {
+    font-size: 10px;
+    margin: 8px;
+   
+}
+
+
+
+

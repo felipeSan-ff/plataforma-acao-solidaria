@@ -1,0 +1,233 @@
+* {
+    font-family:"Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container-header {
+    position: relative;
+}
+
+.container-header img {
+    width: 100%;
+    
+
+}
+
+.container-h1 {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    width: 80%;
+  
+}
+
+.container-h1 h1 {
+    font-size: 70px;
+    margin: 0;
+    font-weight: 700;
+
+}
+
+.container-h1 p {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+.como-ajudar {
+    margin: auto 364px;
+
+}
+
+.como-ajudar h2 {
+    margin: 50px 0 20px 0;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.como-ajudar p {
+    display: flex;
+    gap: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 1px solid rgb(215, 215, 215);
+
+}
+
+.seus-dados-contato {
+    display: flex;
+    margin-left: 370px;
+    
+}
+
+.h2-contatos {
+    display: flex;
+    margin-left: 370px;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+}
+
+.seus-dados-contato input {
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+    border-radius:8px ;
+    border: 1px solid rgb(227, 226, 226);
+    width: 325px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.doacao-titulo h2 {
+    display: flex;
+    margin-left: 370px;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.doacao-titulo p {
+    display: flex;
+    margin-left: 370px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: rgb(150, 144, 144);
+}
+
+.container-valores-doar {
+
+    width: 770px;
+    height: 180px;
+    background-color: #EAF0F7;
+    position: relative;
+    left: 368px;     
+    border-radius: 10px;
+    border: 1px solid #137FEC;
+    border-style: dashed;
+}
+
+.container-valores-doar p {
+    padding: 20px;
+    font-weight: 400;
+}
+
+.container-valores-doar button { 
+    padding: 10px;
+    width: 172px;
+    margin: auto 10px;
+    border-radius: 10px;
+    border: 1px solid #137FEC;
+    background-color: white;
+    cursor: pointer;
+}
+
+.container-valores-doar input {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #b6b7b8;
+    margin: auto 10px;
+    margin-top: 20px;
+    width: 725px;
+}
+
+
+.botao-doar button {
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #137FEC;
+    color: #FFFFFF;
+    margin: auto 37%;
+    cursor: pointer;
+    width: 400px;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.container-numeros {
+    margin-top: 50px;
+    background-color: #F7F6F8;
+    
+}
+
+.container-numeros h2 {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 35px;
+}
+
+.container-numeros p {
+
+    text-align: center;      
+    line-height: 1.8;         
+    letter-spacing: 0.3px;    
+    margin: 0 auto;           
+    max-width: 800px;         
+    color: #555;              
+    font-size: 14px;          
+    padding: 10px 20px; 
+}
+
+
+
+
+
+.box-numeros {
+    display: flex;
+    justify-content: center;
+    background-color: #F7F6F8;
+    gap: 40px;
+    height: 200px;
+    
+}
+
+.box-numeros .familias, .entregues, .ativos {
+    background-color: #FFFFFF;
+    height: 100px;
+    width: 250px;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+.box-numeros h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #7311D4;
+    margin: 10px;
+}
+
+.box-numeros p {
+    text-align: center;      
+    margin: 0;  
+    max-width: 800px;         
+    color: #555;              
+    font-size: 15px;  
+}
+
+
